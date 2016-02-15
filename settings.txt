@@ -1,0 +1,13 @@
+1. In php.ini, enable setting extension_dir
+- find the line with this setting
+- remove the comment-indicating semicolon in front of its line
+- find your PHP extension directory (usually ..\php\ext) 
+- set the setting to this directory
+- save php.ini
+- restart apache
+
+2. In php.ini, enable setting extension=php_ldap.dll
+- find the line with this setting
+- remove the comment-indicating semicolon in front of it
+- save php.ini
+- restart apache
